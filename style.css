@@ -512,3 +512,10 @@ ul[aria-label='ページネーション'][width='100%'] > li[aria-disabled='fals
 	border-color: #545454 !important;
 	color: #e0e0e0 !important;
 }
+
+button[type='button'][aria-label='閉じる'],
+button[type='button'][aria-label='拡大する'] {
+	background-color: #1e1e1e !important;
+	border-color: #545454 !important;
+	color: #e0e0e0 !important;
+}
