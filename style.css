@@ -29,6 +29,16 @@ div:has(> button[aria-label='アカウントメニューを開く']) > div > ul 
 	background-color: #1e1e1e !important;
 }
 
+div:has(> div[type='flow'] > div[direction='column'] > div[direction='row'] > a[href='/logout'])
+	> div {
+	background-color: #121212 !important;
+}
+
+a[href='/logout'] {
+	color: #e0e0e0 !important;
+	background-color: #1e1e1e !important;
+}
+
 /* --- Profile --- */
 
 div:has(> div[color='white'][width='calc(1.6rem *16)']) > ul {
