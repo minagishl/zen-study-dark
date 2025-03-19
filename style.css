@@ -90,6 +90,10 @@ div[type='flow'] > div[direction='row'] > div[direction='column'] > ul > li > di
 
 /* --- Top Page --- */
 
+[data-testid='skeleton'] {
+	background-color: #1e1e1e !important;
+}
+
 :root {
 	--tips-background-color: #98aebd68 !important;
 }
