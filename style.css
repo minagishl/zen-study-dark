@@ -25,6 +25,14 @@
 	color: #e0e0e0 !important;
 }
 
+div:has(> button[aria-label='アカウントメニューを開く']) > div > ul > li > div {
+	background-color: #1e1e1e !important;
+}
+
+div:has(> button[aria-label='アカウントメニューを開く']) > div > ul > li > div:hover {
+	background-color: #2e2e2e !important;
+}
+
 /* --- Top Page --- */
 
 :root {
