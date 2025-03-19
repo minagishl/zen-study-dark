@@ -22,7 +22,7 @@ div[role='banner'] > div > div > div > div > a {
 }
 
 #root > div > div:nth-child(2) > div:first-child,
-#root > div > div:nth-child(2) > div:first-child > div {
+#root > div > div:nth-child(2) > div:first-child > div:not(> div > div > div > img) {
 	background-color: #121212 !important;
 }
 
