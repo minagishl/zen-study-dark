@@ -442,3 +442,68 @@ div[role='main'][aria-label='通知'] > div > a > div {
 div[role='main'][aria-label='通知'] > div > a > div > div:not([width='80']) > div {
 	color: rgba(255, 255, 255, 0.6) !important;
 }
+
+/* --- Report --- */
+
+button[aria-label='ひとつ前のパンくずへ戻る'] {
+	background-color: #1e1e1e !important;
+	border-color: #545454 !important;
+	color: #e0e0e0 !important;
+}
+
+div:has(> div[height='160'] > div[type='image']) {
+	background-color: #1e1e1e !important;
+}
+
+main[width='100%'] > div > div > div[width='100%'] > div > h1 {
+	color: #e0e0e0 !important;
+}
+
+main[width='100%'] > div > div > hr[width='100%'] {
+	background-color: #545454 !important;
+	height: 1px;
+	border: none;
+}
+
+main[width='100%'] > div > div:first-child > div > div,
+main[width='100%'] > div > div:nth-child(2) > div {
+	background-color: #2c2c2c !important;
+	border-color: #545454 !important;
+}
+
+main[width='100%'] > div > div:first-child > div > div > div,
+main[width='100%'] > div > div:nth-child(2) > div > div {
+	color: #e0e0e0 !important;
+}
+
+div[aria-label='教材フィルタ'] > div:nth-child(2) > button {
+	background-color: #1e1e1e !important;
+	border-color: #545454 !important;
+	color: #e0e0e0 !important;
+}
+
+ul[aria-label='必修教材リスト'] > li,
+ul[aria-label='レポートリスト'] > li {
+	border-color: #545454 !important;
+}
+
+ul[aria-label='必修教材リスト'] > li > div,
+ul[aria-label='レポートリスト'] > li > div {
+	background-color: #1e1e1e !important;
+}
+
+ul[aria-label='ページネーション'][width='100%'] {
+	background-color: transparent !important;
+}
+
+ul[aria-label='ページネーション'][width='100%'] > li[aria-disabled='true'] > button {
+	background-color: #1e1e1e !important;
+	border-color: #545454 !important;
+	color: #e0e0e0 !important;
+}
+
+ul[aria-label='ページネーション'][width='100%'] > li[aria-disabled='false'] > button {
+	background-color: #1e1e1e !important;
+	border-color: #545454 !important;
+	color: #e0e0e0 !important;
+}
