@@ -29,6 +29,55 @@ div:has(> button[aria-label='アカウントメニューを開く']) > div > ul 
 	background-color: #1e1e1e !important;
 }
 
+/* --- Profile --- */
+
+div:has(> div[color='white'][width='calc(1.6rem *16)']) > ul {
+	background: transparent !important;
+}
+
+div:has(> div[color='white'][width='calc(1.6rem *16)']) > ul > li {
+	background-color: #1e1e1e !important;
+}
+
+div:has(> div[color='white'][width='calc(1.6rem *16)']) > ul > li > img {
+	-webkit-filter: brightness(0) invert(1);
+	filter: brightness(0) invert(1);
+}
+
+div[type='flow'] > div[direction='column'] > div[direction='row'] > ul > li {
+	border-color: #545454 !important;
+}
+
+div[type='flow'] > div[direction='column'] > div[direction='row'] > ul > li > a {
+	color: #e0e0e0 !important;
+}
+
+div[type='flow'] > div[direction='column'] > div[direction='row'] > ul > li > a > div > div > img {
+	-webkit-filter: brightness(0) invert(1);
+	filter: brightness(0) invert(1);
+}
+
+div[type='flow'] > div[direction='column'] > div[direction='row'] > ul > li > a > div > div > i {
+	color: #e0e0e0 !important;
+}
+
+div[type='flow'] > div[direction='column'] > div[direction='row'] > ul > li > a > div > p > span {
+	color: #e0e0e0 !important;
+}
+
+div[type='flow'] > div[direction='row'] > div[direction='column'] > ul,
+div[type='flow'] > div[direction='row'] > div[direction='column'] > ul > li {
+	border-color: #545454 !important;
+}
+
+div[type='flow'] > div[direction='row'] > div[direction='column'] > ul > li > button {
+	background-color: #1e1e1e !important;
+}
+
+div[type='flow'] > div[direction='row'] > div[direction='column'] > ul > li > div {
+	background-color: #1e1e1e !important;
+}
+
 /* --- Top Page --- */
 
 :root {
