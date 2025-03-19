@@ -1,0 +1,326 @@
+/* --- Top Page --- */
+
+:root {
+	--tips-background-color: #98aebd68 !important;
+}
+
+body,
+div.global--wrapper dl.global--balloon dd {
+	background-color: #121212 !important;
+	color: #e0e0e0 !important;
+}
+
+a {
+	color: #bb86fc !important;
+}
+
+img {
+	filter: brightness(0.8) contrast(1.2) !important;
+}
+
+/* Main content background */
+[role='main'] > div > div > div > div > div:not([type='flow']),
+div > ul:not([role='tablist']),
+li > div > p {
+	background-color: #2c2c2c !important;
+}
+
+/* Side Menu */
+[role='navigation'] > div {
+	background-color: #121212 !important;
+}
+
+div[role='search'] > button[type='button'][aria-pressed='true'] {
+	background-color: #1e1e1e !important;
+	border-color: #545454 !important;
+	color: #e0e0e0 !important;
+}
+
+div[role='search'] > button[type='button'][aria-pressed='false'] {
+	background-color: #121212 !important;
+	border-color: #545454 !important;
+	color: #e0e0e0 !important;
+}
+
+div:has(> img[alt='N高のロゴ']) {
+	background-color: #121212 !important;
+	border-color: #545454 !important;
+	color: #e0e0e0 !important;
+}
+
+img[alt='N高のロゴ'] {
+	-webkit-filter: brightness(0) invert(1);
+	filter: brightness(0) invert(1);
+}
+
+/* --- My Courses --- */
+
+button[aria-selected='true'][role='tab'] {
+	color: #ffffff !important;
+}
+
+div[type='flow']:not(:has(> div[direction='row'])),
+div[direction='column'] > div:not(:has(> div[direction='row'])) {
+	background-color: #1e1e1e !important;
+}
+
+/* Tabs */
+div[role='tablist'] {
+	border-bottom: 1px solid #545454 !important;
+}
+
+/* Button */
+div[direction='column'] > a > div {
+	background: #1e1e1e !important;
+	color: #e0e0e0 !important;
+	border: 1px solid #545454 !important;
+}
+
+/* Report List */
+div > ul > li > a {
+	background-color: #1e1e1e !important;
+}
+
+div > ul > li > a:hover {
+	background-color: #2e2e2e !important;
+}
+
+div > ul > li > a > div > div {
+	color: #e0e0e0 !important;
+}
+
+/* Credit Certification Exam */
+div[width='100%'] > div[width='100%'] > button {
+	background-color: #1e1e1e !important;
+	border-top: 1px solid #545454 !important;
+	color: #e0e0e0 !important;
+}
+
+div[width='100%'] > div[width='100%'] > button:first-child {
+	border-top: none;
+}
+
+div[width='100%'] > div[width='100%'] > button:last-child {
+	border-bottom: none;
+}
+
+/* Course List */
+nav[aria-label='コース一覧'] > div > div:first-child {
+	background-color: #1e1e1e !important;
+}
+
+/* --- Forum --- */
+
+h1:has(i[type='forum']) {
+	color: #e0e0e0 !important;
+}
+
+div[height='24px'] {
+	background-color: #1e1e1e !important;
+}
+
+button[type='button']:has(i[type='guide']) {
+	background-color: #1e1e1e !important;
+	color: #e0e0e0 !important;
+}
+
+ul[role='tablist'] > li[role='tab'] > a {
+	background-color: #1e1e1e !important;
+	color: #e0e0e0 !important;
+}
+
+ul[role='tablist'] > li[role='tab'][aria-selected='true'] > a {
+	background-color: #2e2e2e !important;
+}
+
+div[role='main'] > div:nth-child(2) {
+	background-color: #2c2c2c !important;
+}
+
+div[role='main'] > div:nth-child(2) > div {
+	background-color: #2c2c2c !important;
+	border-color: #545454 !important;
+}
+
+div[role='main'] > div:nth-child(2) > div > a > div > div:first-child {
+	color: #e0e0e0 !important;
+}
+
+form[autocomplete='on'] > div > input[type='text'] {
+	background-color: #1e1e1e !important;
+	color: #e0e0e0 !important;
+	border: 1px solid #545454 !important;
+}
+
+div[role='complementary'] > div > div {
+	background-color: #2c2c2c !important;
+}
+
+div[role='complementary'] > div > div > div {
+	color: #e0e0e0 !important;
+	border-color: #545454 !important;
+	background-color: #2c2c2c !important;
+}
+
+div[role='complementary'] > div > div > div > div[role='list'] > div > a[tx='buttons'] {
+	background-color: #1e1e1e !important;
+	color: #e0e0e0 !important;
+	border: 1px solid #545454 !important;
+}
+
+/* --- Live --- */
+
+div[role='complementary'] > div > div > div > div {
+	border-color: #545454 !important;
+}
+
+div[role='complementary'] > div > div > div > div > div[role='list'] > div > a[tx='buttons'] {
+	background-color: #1e1e1e !important;
+	color: #e0e0e0 !important;
+	border: 1px solid #545454 !important;
+}
+
+div:has(> div[height='32px']) > div {
+	border-color: #545454 !important;
+	background-color: #1e1e1e !important;
+}
+
+div:has(> div[height='32px']) > div > div {
+	color: #e0e0e0 !important;
+	background-color: #2c2c2c !important;
+}
+
+div[width='560'][role='main'] > div > div:nth-child(2) > a > div {
+	background-color: #2c2c2c !important;
+	border-color: #545454 !important;
+}
+
+/* Color */
+div.global--wrapper .global--block-message_red {
+	background-color: #ffb9b947 !important;
+}
+
+/* Green */
+div.global--wrapper .global--block-message_green {
+	background-color: #09481a !important;
+}
+
+/* Aqua */
+div.global--wrapper .global--block-message_aqua,
+.alert.alert-info {
+	background-color: #87adbb47 !important;
+}
+
+/* Yellow */
+div.global--wrapper .global--block-message_yellow,
+.notice {
+	background-color: #848204dd !important;
+}
+
+/* Dictionary */
+.dictionary {
+	background-color: #6a40069c !important;
+}
+
+/* Table */
+div.global--wrapper table th {
+	background-color: #545454 !important;
+}
+
+/* Audio Player */
+.component-audio-player,
+.component-audio-player .component-audio-player-title,
+.component-audio-player .component-audio-player-time,
+.component-audio-player .component-audio-player-icon,
+.component-audio-player .component-audio-player-play-pause .component-audio-player-progress,
+.component-audio-player .component-audio-player-play-stop .component-audio-player-progress,
+.component-audio-player-fixed .component-audio-player-fixed-line1,
+.component-audio-player-fixed
+	.component-audio-player-fixed-line2
+	.component-audio-player-fixed-time-control
+	.component-audio-player-fixed-time-control-range,
+.component-audio-player-fixed .component-audio-player-fixed-line2 {
+	background-color: #545454 !important;
+	color: azure !important;
+}
+
+/* Programming */
+.main-content {
+	background-color: #545454 !important;
+}
+
+*:not(a) {
+	text-shadow: unset !important;
+}
+
+.image-with-caption .imagecaption,
+.book .book-body .page-wrapper .page-inner section.normal .imagecaption {
+	background-color: #9b9b9b53 !important;
+	color: beige !important;
+}
+
+table tr {
+	background-color: #c7c7c747 !important;
+}
+
+table tr:nth-child(2n) {
+	background-color: #a6a6a647 !important;
+}
+
+table th {
+	background-color: #545454 !important;
+}
+
+/* Code */
+pre[class*='language-'],
+code {
+	background-color: #121212 !important;
+	color: gold !important;
+}
+
+.oneLineCode {
+	color: honeydew !important;
+	background: linear-gradient(transparent 60%, #9a9a5981 60%) !important;
+}
+
+p,
+ruby {
+	color: #e0e0e0 !important;
+}
+
+strong {
+	color: crimson !important;
+	font-weight: bolder !important;
+}
+
+li {
+	color: azure !important;
+}
+
+h3,
+h4,
+h5 {
+	color: azure !important;
+}
+
+section {
+	background-color: #545454 !important;
+}
+
+td[bgcolor='#ffffe0'] {
+	background-color: #8286608f !important;
+}
+
+.tips {
+	background-color: #3973a559 !important;
+}
+
+/* Alert for old teaching materials */
+:where(:root) {
+	--material-color-bg-light: #253b4a !important;
+}
+
+.news h2 {
+	background-color: #2b7a48 !important;
+	color: #e0e0e0 !important;
+}
