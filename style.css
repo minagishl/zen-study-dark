@@ -185,7 +185,7 @@ div:has(> div[height='32px']) > div {
 	background-color: #1e1e1e !important;
 }
 
-div:has(> div[height='32px']) > div > div {
+div:has(> div[height='32px']) > div > a {
 	color: #e0e0e0 !important;
 	background-color: #2c2c2c !important;
 }
