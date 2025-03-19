@@ -195,6 +195,17 @@ div[width='560'][role='main'] > div > div:nth-child(2) > a > div {
 	border-color: #545454 !important;
 }
 
+/* Streaming Page */
+article[aria-label='授業の説明・教材の表示'] > div {
+	background-color: #2c2c2c !important;
+}
+
+article[aria-label='授業の説明・教材の表示'] > div:nth-child(2) > div > a,
+article[aria-label='授業の説明・教材の表示'] > div:nth-child(2) > a[type='button'] {
+	background-color: #2c2c2c !important;
+	color: #e0e0e0 !important;
+}
+
 /* Color */
 div.global--wrapper .global--block-message_red {
 	background-color: #ffb9b947 !important;
