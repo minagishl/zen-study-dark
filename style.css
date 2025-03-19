@@ -432,6 +432,7 @@ td[bgcolor='#ffffe0'] {
 }
 
 /* --- Notice --- */
+
 div[role='main'][aria-label='通知'] > div > a > div {
 	background-color: #2c2c2c !important;
 	border-color: #545454 !important;
