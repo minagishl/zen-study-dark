@@ -573,3 +573,11 @@ button[type='button'][aria-label='拡大する'] {
 	border-color: #545454 !important;
 	color: #e0e0e0 !important;
 }
+
+nav[aria-label='チャプター一覧'] > div > div > div > div {
+	background-color: #1e1e1e !important;
+}
+
+div[type='flow'] {
+	background-color: #1e1e1e !important;
+}
