@@ -51,6 +51,10 @@ div:has(> div > nav[aria-label='パンくずリスト']) {
 
 /* --- Profile --- */
 
+div:has(> div[style='width: 66px; height: 66px;']) {
+	background-color: #1e1e1e !important;
+}
+
 div:has(> div[color='white'][width='calc(1.6rem *16)']) > ul {
 	background: transparent !important;
 }
