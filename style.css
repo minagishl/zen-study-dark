@@ -92,6 +92,7 @@ div[type='flow'] > div[direction='column'] > div[direction='row'] > ul > li > a 
 div[type='flow'] > div[direction='row'] > div[direction='column'] > ul,
 div[type='flow'] > div[direction='row'] > div[direction='column'] > ul > li {
 	border-color: #545454 !important;
+	background-color: #1e1e1e !important;
 }
 
 div[type='flow'] > div[direction='row'] > div[direction='column'] > ul > li > button {
