@@ -44,6 +44,10 @@ a[href='/logout'] {
 	background-color: #1e1e1e !important;
 }
 
+div:has(> div > nav[aria-label='パンくずリスト']) {
+	background-color: #121212 !important;
+}
+
 /* --- Profile --- */
 
 div:has(> div[color='white'][width='calc(1.6rem *16)']) > ul {
