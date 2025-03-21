@@ -5,6 +5,7 @@ div[role='banner'] {
 	background-color: #121212 !important;
 }
 
+div[role='banner'] > h1,
 #root > div > div:first-child > div[role='banner'] > div > a > div > div > img,
 div[role='banner'] > div > a > div > div > img {
 	-webkit-filter: brightness(0) invert(1);
