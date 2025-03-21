@@ -137,6 +137,13 @@ li > div > p {
 	background-color: #121212 !important;
 }
 
+[role='navigation'] > div > div,
+[role='navigation'] > div > div > button,
+[role='navigation'] > div > div > button > h2,
+[role='navigation'] > div > div > div > div > div > a > h2 {
+	color: #e0e0e0 !important;
+}
+
 div[role='search'] > button[type='button'][aria-pressed='true'] {
 	background-color: #1e1e1e !important;
 	border-color: #545454 !important;
