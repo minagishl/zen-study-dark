@@ -2,7 +2,7 @@
 
 #root > div > div:first-child > div[role='banner'],
 div[role='banner'],
-header {
+header:has(> img[alt='ZEN Study']) {
 	background-color: #121212 !important;
 }
 
