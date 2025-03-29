@@ -487,7 +487,6 @@ table th {
 /* Code */
 pre[class*='language-'],
 code {
-	background-color: #121212 !important;
 	color: gold !important;
 }
 
