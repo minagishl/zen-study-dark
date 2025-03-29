@@ -132,7 +132,12 @@ img {
 }
 
 /* Main content background */
-[role='main'] > div > div > div > div > div:not([type='flow']),
+[role='main']
+	> div
+	> div
+	> div:not([data-group='teacher']):not([data-group='staff'])
+	> div
+	> div:not([type='flow']),
 div > ul:not([role='tablist']),
 li > div > p {
 	background-color: #2c2c2c !important;
@@ -323,6 +328,30 @@ div:has(> div[style='display: none !important;']) > div:not([width='960']),
 div:has(> div[style='display: none !important;']) > div > div:not([width='560']) {
 	border-color: #545454 !important;
 	background-color: #2c2c2c !important;
+}
+
+div[data-group='staff'],
+div[data-group='staff'] > div > div {
+	color: #e0e0e0 !important;
+	background-color: #1e1e1e !important;
+}
+
+div[data-group='teacher'],
+div[data-group='teacher'] > div > div {
+	color: #e0e0e0 !important;
+	background-color: #252525 !important;
+}
+
+div[data-group='owner'],
+div[data-group='owner'] > div > div {
+	color: #e0e0e0 !important;
+	background-color: #2a2a33 !important;
+}
+
+div[data-group='default'],
+div[data-group='default'] > div > div {
+	color: #e0e0e0 !important;
+	background-color: #232329 !important;
 }
 
 /* --- Live --- */
