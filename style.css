@@ -173,6 +173,14 @@ img[alt='N高のロゴ'] {
 	filter: brightness(0) invert(1);
 }
 
+div[display='grid'] > div > a[tabindex='0'] > div {
+	background: #1e1e1e !important;
+}
+
+div[display='grid'] > div > a[tabindex='0'] > div > div {
+	color: #e0e0e0 !important;
+}
+
 /* --- My Courses --- */
 
 button[aria-selected='true'][role='tab'] {
