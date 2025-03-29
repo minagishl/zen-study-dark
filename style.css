@@ -636,3 +636,29 @@ div[type='flow'] {
 div:has(> h1[style='height: auto;'] > span[height='100%']) {
 	background-color: #121212 !important;
 }
+
+/* --- Dialog --- */
+
+div[tabindex='-1'][role='dialog'] > div {
+	background-color: #121212 !important;
+}
+
+div[tabindex='-1'][role='dialog'] > div > div > div > ul {
+	background-color: #121212 !important;
+}
+
+div[tabindex='-1'][role='dialog'] > div > div > div:last-child {
+	background-color: #121212 !important;
+}
+
+div[tabindex='-1'][role='dialog'] > div > div > div:last-child > div {
+	background-color: #121212 !important;
+	color: #e0e0e0 !important;
+	border-color: #545454 !important;
+}
+
+div[tabindex='-1'][role='dialog'] > div > div > div:last-child > div > a {
+	background-color: #121212 !important;
+	color: #e0e0e0 !important;
+	border-color: #545454 !important;
+}
