@@ -354,6 +354,21 @@ div[data-group='default'] > div > div {
 	background-color: #232329 !important;
 }
 
+div[width='560'][role='main'] > div:last-child {
+	background: #202020 !important;
+}
+
+div[width='560'][role='main'] > div:last-child > div > textarea {
+	background: #202020 !important;
+	color: #e0e0e0 !important;
+	border-color: #545454 !important;
+}
+
+div[width='560'][role='main'] > div:last-child > div > div > div > button[aria-pressed='false'] {
+	background: #202020 !important;
+	border-color: #545454 !important;
+}
+
 /* --- Live --- */
 
 div[role='complementary'] > div > div > div > div {
