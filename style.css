@@ -1,13 +1,15 @@
 /* --- Header --- */
 
 #root > div > div:first-child > div[role='banner'],
-div[role='banner'] {
+div[role='banner'],
+header {
 	background-color: #121212 !important;
 }
 
 div[role='banner'] > h1,
 #root > div > div:first-child > div[role='banner'] > div > a > div > div > img,
-div[role='banner'] > div > a > div > div > img {
+div[role='banner'] > div > a > div > div > img,
+header > img[alt='ZEN Study'] {
 	-webkit-filter: brightness(0) invert(1);
 	filter: brightness(0) invert(1);
 }
@@ -47,6 +49,12 @@ a[href='/logout'] {
 
 div:has(> div > nav[aria-label='パンくずリスト']) {
 	background-color: #121212 !important;
+}
+
+header > ul > li > button {
+	background-color: #121212 !important;
+	border-color: #545454 !important;
+	color: #e0e0e0 !important;
 }
 
 /* --- Profile --- */
